@@ -19,3 +19,9 @@ For typical needs, we recommend starting the TeX Live installation by downloadin
 * $python makenamelist.py
 * $xelatex pingan.tex
 * $evince pingan.pdf
+split large pdf file into multiple small ones (very fast)
+$pdftk pingan.pdf cat 1-2052 output book_1.pdf
+$ pdftk pingan.pdf cat 2053-4019 output book_2.pdf
+$ pdftk pingan.pdf cat 4020-6089 output book_3.pdf
+$ pdftk pingan.pdf cat 6090-end output book_4.pdf
+
