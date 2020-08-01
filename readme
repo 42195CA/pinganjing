@@ -1,0 +1,4 @@
+8/1/2020
+1. Run makenamelist.py to prepre latex-format name list
+2. Run $xelatex pingan.tex  to print pdf file
+3. Evince pingan.pdf to view the file
