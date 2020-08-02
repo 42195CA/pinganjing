@@ -16,6 +16,7 @@ Environment setup
 * Ubuntu 20.04 LTS
 * TexLive 2020.  https://www.tug.org/texlive/acquire-netinstall.html
 For typical needs, we recommend starting the TeX Live installation by downloading install-tl-windows.exe for Windows (18mb), or install-tl-unx.tar.gz (5mb) for everything else. There is also a zip archive install-tl.zip (23mb) which is the same as the .exe. Although the .zip archive works fine on all platforms, the .tar.gz is much smaller, since it omits installation support programs needed only on Windows. The archives are otherwise identical.
+* install Elephantbook package if it is not available  https://elegantlatex.org/en/
 * $python makenamelist.py
 * $xelatex pingan.tex
 * $evince pingan.pdf
